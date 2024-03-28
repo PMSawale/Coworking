@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B82E77921BC004E8DF6D7D2 /* Pods_CoworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5083428D3EE9B75683E2E31A /* Pods_CoworkingTests.framework */; };
+		9038435C2BADAFED001E714A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038435B2BADAFED001E714A /* AppDelegate.swift */; };
+		9038435E2BADAFED001E714A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038435D2BADAFED001E714A /* SceneDelegate.swift */; };
+		903843632BADAFED001E714A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903843612BADAFED001E714A /* Main.storyboard */; };
+		903843652BADAFF1001E714A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903843642BADAFF1001E714A /* Assets.xcassets */; };
+		903843682BADAFF1001E714A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903843662BADAFF1001E714A /* LaunchScreen.storyboard */; };
+		903843732BADAFF1001E714A /* CoworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903843722BADAFF1001E714A /* CoworkingTests.swift */; };
+		9038437D2BADAFF1001E714A /* CoworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038437C2BADAFF1001E714A /* CoworkingUITests.swift */; };
+		9038437F2BADAFF1001E714A /* CoworkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038437E2BADAFF1001E714A /* CoworkingUITestsLaunchTests.swift */; };
+		9038438C2BADE930001E714A /* CreateAnAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038438B2BADE930001E714A /* CreateAnAccount.swift */; };
+		9038438E2BADE959001E714A /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038438D2BADE959001E714A /* LogIn.swift */; };
+		903843902BADE993001E714A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038438F2BADE993001E714A /* HomeScreen.swift */; };
+		903843922BADED68001E714A /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 903843912BADED68001E714A /* Poppins */; };
+		903843962BAF02EE001E714A /* desk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903843952BAF02EE001E714A /* desk.swift */; };
+		903843982BAF1F23001E714A /* availabelDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903843972BAF1F23001E714A /* availabelDesk.swift */; };
+		9038439A2BAF1F64001E714A /* deskConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903843992BAF1F64001E714A /* deskConfirmation.swift */; };
+		9038439C2BAF1FA3001E714A /* deskBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038439B2BAF1FA3001E714A /* deskBooking.swift */; };
+		90648A602BAF27DE00E84ABF /* apiCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90648A5F2BAF27DE00E84ABF /* apiCollection.swift */; };
+		907FABD92BB1B1CC002693A3 /* desBookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FABD82BB1B1CC002693A3 /* desBookingCell.swift */; };
+		907FABDB2BB1F20B002693A3 /* dateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FABDA2BB1F20B002693A3 /* dateCell.swift */; };
+		907FABDD2BB21E85002693A3 /* timingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FABDC2BB21E85002693A3 /* timingCell.swift */; };
+		907FABDF2BB480E7002693A3 /* availabelDeskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FABDE2BB480E7002693A3 /* availabelDeskCell.swift */; };
+		90DEEBD22BB055F700D001DA /* fetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEEBD12BB055F700D001DA /* fetchData.swift */; };
+		E25EC06B72531F6A00D81B30 /* Pods_Coworking_CoworkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D59340F3586354F8902E3A /* Pods_Coworking_CoworkingUITests.framework */; };
+		FB717F649D7EDF978D6C5C28 /* Pods_Coworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B0220B9869B2004F5EB2A7 /* Pods_Coworking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9038436F2BADAFF1001E714A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903843502BADAFED001E714A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903843572BADAFED001E714A;
+			remoteInfo = Coworking;
+		};
+		903843792BADAFF1001E714A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903843502BADAFED001E714A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903843572BADAFED001E714A;
+			remoteInfo = Coworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05503628FD1627D405D90DA5 /* Pods-Coworking-CoworkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coworking-CoworkingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Coworking-CoworkingUITests/Pods-Coworking-CoworkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23519DB79436A8A6D8F79A13 /* Pods-Coworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coworking.debug.xcconfig"; path = "Target Support Files/Pods-Coworking/Pods-Coworking.debug.xcconfig"; sourceTree = "<group>"; };
+		33D59340F3586354F8902E3A /* Pods_Coworking_CoworkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coworking_CoworkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3464550189CBD6EC96F6C93B /* Pods-CoworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoworkingTests.release.xcconfig"; path = "Target Support Files/Pods-CoworkingTests/Pods-CoworkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B7EA7CF4436F4D7D369F947 /* Pods-Coworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coworking.release.xcconfig"; path = "Target Support Files/Pods-Coworking/Pods-Coworking.release.xcconfig"; sourceTree = "<group>"; };
+		5083428D3EE9B75683E2E31A /* Pods_CoworkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoworkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B0220B9869B2004F5EB2A7 /* Pods_Coworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903843582BADAFED001E714A /* Coworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9038435B2BADAFED001E714A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9038435D2BADAFED001E714A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		903843622BADAFED001E714A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		903843642BADAFF1001E714A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		903843672BADAFF1001E714A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		903843692BADAFF1001E714A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9038436E2BADAFF1001E714A /* CoworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		903843722BADAFF1001E714A /* CoworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoworkingTests.swift; sourceTree = "<group>"; };
+		903843782BADAFF1001E714A /* CoworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9038437C2BADAFF1001E714A /* CoworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoworkingUITests.swift; sourceTree = "<group>"; };
+		9038437E2BADAFF1001E714A /* CoworkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoworkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9038438B2BADE930001E714A /* CreateAnAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccount.swift; sourceTree = "<group>"; };
+		9038438D2BADE959001E714A /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		9038438F2BADE993001E714A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		903843912BADED68001E714A /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Poppins; sourceTree = "<group>"; };
+		903843952BAF02EE001E714A /* desk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desk.swift; sourceTree = "<group>"; };
+		903843972BAF1F23001E714A /* availabelDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = availabelDesk.swift; sourceTree = "<group>"; };
+		903843992BAF1F64001E714A /* deskConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deskConfirmation.swift; sourceTree = "<group>"; };
+		9038439B2BAF1FA3001E714A /* deskBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deskBooking.swift; sourceTree = "<group>"; };
+		90648A5F2BAF27DE00E84ABF /* apiCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiCollection.swift; sourceTree = "<group>"; };
+		907FABD82BB1B1CC002693A3 /* desBookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desBookingCell.swift; sourceTree = "<group>"; };
+		907FABDA2BB1F20B002693A3 /* dateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateCell.swift; sourceTree = "<group>"; };
+		907FABDC2BB21E85002693A3 /* timingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timingCell.swift; sourceTree = "<group>"; };
+		907FABDE2BB480E7002693A3 /* availabelDeskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = availabelDeskCell.swift; sourceTree = "<group>"; };
+		90DEEBD12BB055F700D001DA /* fetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchData.swift; sourceTree = "<group>"; };
+		A03E950BFB4FE921958B591D /* Pods-CoworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoworkingTests.debug.xcconfig"; path = "Target Support Files/Pods-CoworkingTests/Pods-CoworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6C7D2B46330474B4032B76 /* Pods-Coworking-CoworkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coworking-CoworkingUITests.release.xcconfig"; path = "Target Support Files/Pods-Coworking-CoworkingUITests/Pods-Coworking-CoworkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		903843552BADAFED001E714A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB717F649D7EDF978D6C5C28 /* Pods_Coworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9038436B2BADAFF1001E714A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B82E77921BC004E8DF6D7D2 /* Pods_CoworkingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903843752BADAFF1001E714A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25EC06B72531F6A00D81B30 /* Pods_Coworking_CoworkingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9038434F2BADAFED001E714A = {
+			isa = PBXGroup;
+			children = (
+				9038435A2BADAFED001E714A /* Coworking */,
+				903843712BADAFF1001E714A /* CoworkingTests */,
+				9038437B2BADAFF1001E714A /* CoworkingUITests */,
+				903843592BADAFED001E714A /* Products */,
+				E6228CAB126855B4F6D5E40C /* Pods */,
+				C7EA96B16133C66EBB022A66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		903843592BADAFED001E714A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903843582BADAFED001E714A /* Coworking.app */,
+				9038436E2BADAFF1001E714A /* CoworkingTests.xctest */,
+				903843782BADAFF1001E714A /* CoworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9038435A2BADAFED001E714A /* Coworking */ = {
+			isa = PBXGroup;
+			children = (
+				9038435B2BADAFED001E714A /* AppDelegate.swift */,
+				9038435D2BADAFED001E714A /* SceneDelegate.swift */,
+				90648A5F2BAF27DE00E84ABF /* apiCollection.swift */,
+				90DEEBD12BB055F700D001DA /* fetchData.swift */,
+				903843612BADAFED001E714A /* Main.storyboard */,
+				908AF3B62BAF2580006E202A /* User */,
+				908AF3B42BAF2553006E202A /* Desk */,
+				903843642BADAFF1001E714A /* Assets.xcassets */,
+				903843662BADAFF1001E714A /* LaunchScreen.storyboard */,
+				903843692BADAFF1001E714A /* Info.plist */,
+				903843912BADED68001E714A /* Poppins */,
+			);
+			path = Coworking;
+			sourceTree = "<group>";
+		};
+		903843712BADAFF1001E714A /* CoworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				903843722BADAFF1001E714A /* CoworkingTests.swift */,
+			);
+			path = CoworkingTests;
+			sourceTree = "<group>";
+		};
+		9038437B2BADAFF1001E714A /* CoworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9038437C2BADAFF1001E714A /* CoworkingUITests.swift */,
+				9038437E2BADAFF1001E714A /* CoworkingUITestsLaunchTests.swift */,
+			);
+			path = CoworkingUITests;
+			sourceTree = "<group>";
+		};
+		908AF3B42BAF2553006E202A /* Desk */ = {
+			isa = PBXGroup;
+			children = (
+				903843952BAF02EE001E714A /* desk.swift */,
+				907FABDA2BB1F20B002693A3 /* dateCell.swift */,
+				907FABDC2BB21E85002693A3 /* timingCell.swift */,
+				903843972BAF1F23001E714A /* availabelDesk.swift */,
+				907FABDE2BB480E7002693A3 /* availabelDeskCell.swift */,
+				903843992BAF1F64001E714A /* deskConfirmation.swift */,
+				9038439B2BAF1FA3001E714A /* deskBooking.swift */,
+				907FABD82BB1B1CC002693A3 /* desBookingCell.swift */,
+			);
+			path = Desk;
+			sourceTree = "<group>";
+		};
+		908AF3B62BAF2580006E202A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				9038438B2BADE930001E714A /* CreateAnAccount.swift */,
+				9038438D2BADE959001E714A /* LogIn.swift */,
+				9038438F2BADE993001E714A /* HomeScreen.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C7EA96B16133C66EBB022A66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73B0220B9869B2004F5EB2A7 /* Pods_Coworking.framework */,
+				33D59340F3586354F8902E3A /* Pods_Coworking_CoworkingUITests.framework */,
+				5083428D3EE9B75683E2E31A /* Pods_CoworkingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6228CAB126855B4F6D5E40C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23519DB79436A8A6D8F79A13 /* Pods-Coworking.debug.xcconfig */,
+				3B7EA7CF4436F4D7D369F947 /* Pods-Coworking.release.xcconfig */,
+				05503628FD1627D405D90DA5 /* Pods-Coworking-CoworkingUITests.debug.xcconfig */,
+				BE6C7D2B46330474B4032B76 /* Pods-Coworking-CoworkingUITests.release.xcconfig */,
+				A03E950BFB4FE921958B591D /* Pods-CoworkingTests.debug.xcconfig */,
+				3464550189CBD6EC96F6C93B /* Pods-CoworkingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		903843572BADAFED001E714A /* Coworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903843822BADAFF1001E714A /* Build configuration list for PBXNativeTarget "Coworking" */;
+			buildPhases = (
+				9B859A8C59C3ABF8EC2E41CF /* [CP] Check Pods Manifest.lock */,
+				903843542BADAFED001E714A /* Sources */,
+				903843552BADAFED001E714A /* Frameworks */,
+				903843562BADAFED001E714A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coworking;
+			productName = Coworking;
+			productReference = 903843582BADAFED001E714A /* Coworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9038436D2BADAFF1001E714A /* CoworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903843852BADAFF1001E714A /* Build configuration list for PBXNativeTarget "CoworkingTests" */;
+			buildPhases = (
+				67DDCAD2C05D85A5E6131B32 /* [CP] Check Pods Manifest.lock */,
+				9038436A2BADAFF1001E714A /* Sources */,
+				9038436B2BADAFF1001E714A /* Frameworks */,
+				9038436C2BADAFF1001E714A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903843702BADAFF1001E714A /* PBXTargetDependency */,
+			);
+			name = CoworkingTests;
+			productName = CoworkingTests;
+			productReference = 9038436E2BADAFF1001E714A /* CoworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		903843772BADAFF1001E714A /* CoworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903843882BADAFF1001E714A /* Build configuration list for PBXNativeTarget "CoworkingUITests" */;
+			buildPhases = (
+				006AA6AC14040800DF6EDC15 /* [CP] Check Pods Manifest.lock */,
+				903843742BADAFF1001E714A /* Sources */,
+				903843752BADAFF1001E714A /* Frameworks */,
+				903843762BADAFF1001E714A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9038437A2BADAFF1001E714A /* PBXTargetDependency */,
+			);
+			name = CoworkingUITests;
+			productName = CoworkingUITests;
+			productReference = 903843782BADAFF1001E714A /* CoworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		903843502BADAFED001E714A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					903843572BADAFED001E714A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					9038436D2BADAFF1001E714A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 903843572BADAFED001E714A;
+					};
+					903843772BADAFF1001E714A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 903843572BADAFED001E714A;
+					};
+				};
+			};
+			buildConfigurationList = 903843532BADAFED001E714A /* Build configuration list for PBXProject "Coworking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9038434F2BADAFED001E714A;
+			productRefGroup = 903843592BADAFED001E714A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903843572BADAFED001E714A /* Coworking */,
+				9038436D2BADAFF1001E714A /* CoworkingTests */,
+				903843772BADAFF1001E714A /* CoworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		903843562BADAFED001E714A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903843922BADED68001E714A /* Poppins in Resources */,
+				903843682BADAFF1001E714A /* LaunchScreen.storyboard in Resources */,
+				903843652BADAFF1001E714A /* Assets.xcassets in Resources */,
+				903843632BADAFED001E714A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9038436C2BADAFF1001E714A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903843762BADAFF1001E714A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006AA6AC14040800DF6EDC15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coworking-CoworkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67DDCAD2C05D85A5E6131B32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoworkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B859A8C59C3ABF8EC2E41CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		903843542BADAFED001E714A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907FABDB2BB1F20B002693A3 /* dateCell.swift in Sources */,
+				9038438E2BADE959001E714A /* LogIn.swift in Sources */,
+				9038438C2BADE930001E714A /* CreateAnAccount.swift in Sources */,
+				90648A602BAF27DE00E84ABF /* apiCollection.swift in Sources */,
+				907FABD92BB1B1CC002693A3 /* desBookingCell.swift in Sources */,
+				9038439A2BAF1F64001E714A /* deskConfirmation.swift in Sources */,
+				903843902BADE993001E714A /* HomeScreen.swift in Sources */,
+				907FABDD2BB21E85002693A3 /* timingCell.swift in Sources */,
+				9038435C2BADAFED001E714A /* AppDelegate.swift in Sources */,
+				9038439C2BAF1FA3001E714A /* deskBooking.swift in Sources */,
+				9038435E2BADAFED001E714A /* SceneDelegate.swift in Sources */,
+				90DEEBD22BB055F700D001DA /* fetchData.swift in Sources */,
+				907FABDF2BB480E7002693A3 /* availabelDeskCell.swift in Sources */,
+				903843982BAF1F23001E714A /* availabelDesk.swift in Sources */,
+				903843962BAF02EE001E714A /* desk.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9038436A2BADAFF1001E714A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903843732BADAFF1001E714A /* CoworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903843742BADAFF1001E714A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9038437F2BADAFF1001E714A /* CoworkingUITestsLaunchTests.swift in Sources */,
+				9038437D2BADAFF1001E714A /* CoworkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		903843702BADAFF1001E714A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903843572BADAFED001E714A /* Coworking */;
+			targetProxy = 9038436F2BADAFF1001E714A /* PBXContainerItemProxy */;
+		};
+		9038437A2BADAFF1001E714A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903843572BADAFED001E714A /* Coworking */;
+			targetProxy = 903843792BADAFF1001E714A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		903843612BADAFED001E714A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903843622BADAFED001E714A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		903843662BADAFF1001E714A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903843672BADAFF1001E714A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		903843802BADAFF1001E714A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		903843812BADAFF1001E714A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		903843832BADAFF1001E714A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23519DB79436A8A6D8F79A13 /* Pods-Coworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T29TPWL7GK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coworking/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Coworking;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PankajSawale.Coworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		903843842BADAFF1001E714A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7EA7CF4436F4D7D369F947 /* Pods-Coworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T29TPWL7GK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coworking/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Coworking;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PankajSawale.Coworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		903843862BADAFF1001E714A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03E950BFB4FE921958B591D /* Pods-CoworkingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T29TPWL7GK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PankajSawale.CoworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coworking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coworking";
+			};
+			name = Debug;
+		};
+		903843872BADAFF1001E714A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3464550189CBD6EC96F6C93B /* Pods-CoworkingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T29TPWL7GK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PankajSawale.CoworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coworking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coworking";
+			};
+			name = Release;
+		};
+		903843892BADAFF1001E714A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05503628FD1627D405D90DA5 /* Pods-Coworking-CoworkingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T29TPWL7GK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PankajSawale.CoworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coworking;
+			};
+			name = Debug;
+		};
+		9038438A2BADAFF1001E714A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6C7D2B46330474B4032B76 /* Pods-Coworking-CoworkingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T29TPWL7GK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PankajSawale.CoworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		903843532BADAFED001E714A /* Build configuration list for PBXProject "Coworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903843802BADAFF1001E714A /* Debug */,
+				903843812BADAFF1001E714A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903843822BADAFF1001E714A /* Build configuration list for PBXNativeTarget "Coworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903843832BADAFF1001E714A /* Debug */,
+				903843842BADAFF1001E714A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903843852BADAFF1001E714A /* Build configuration list for PBXNativeTarget "CoworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903843862BADAFF1001E714A /* Debug */,
+				903843872BADAFF1001E714A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903843882BADAFF1001E714A /* Build configuration list for PBXNativeTarget "CoworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903843892BADAFF1001E714A /* Debug */,
+				9038438A2BADAFF1001E714A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 903843502BADAFED001E714A /* Project object */;
+}

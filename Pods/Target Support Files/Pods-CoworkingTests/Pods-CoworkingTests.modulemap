@@ -1,0 +1,6 @@
+framework module Pods_CoworkingTests {
+  umbrella header "Pods-CoworkingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
